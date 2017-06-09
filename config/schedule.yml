@@ -1,0 +1,9 @@
+oneWorker_every_1min:
+  cron: "*/1 * * * *"
+  class: "OneWorker"
+  queue: "one_worker"
+
+twoWorker_every_2min:
+  cron: "*/2 * * * *"
+  class: "TwoWorker"
+  queue: "two_worker"
