@@ -1,7 +1,7 @@
 oneWorker_every_1min:
-  cron: "1 * * * *"
+  cron: "*/1 * * * *"
   class: "OneWorker"
 
 twoWorker_every_2min:
-  cron: "2 * * * *"
+  cron: "*/2 * * * *"
   class: "TwoWorker"
